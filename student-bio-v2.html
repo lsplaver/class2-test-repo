@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lawrence's Student Bio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
     <script src="main.js"></script>
 </head>
 <body>
@@ -14,47 +14,62 @@
 
     <br>
 
-    <h3>Lawrence Splaver</h3>
+    <div>
+        <h3>Lawrence Splaver</h3>
+        
+        <div class="divPara">
+            <p>I'm Lawrence Splaver and I have been working with computers pretty much my entire life.</p>
+            <p>Early on it was messing with application development starting with PowerBuilder and</p>
+            <p>VB 6 on Win 3.1 and 98.  I started messing around with hardware using initially the</p>
+            <p>computers at home and then getting old junked computer components in Akron.</p>
 
-    <p>
-        <div>I'm Lawrence Splaver and I have been working with computers pretty much my entire life.</div>
-        <div>Early on it was messing with application development starting with PowerBuilder and</div>
-        <div>VB 6 on Win 3.1 and 98.  I started messing around with hardware using initially the</div>
-        <div>computers at home and then getting old junked computer components in Akron.</div>
-    </p>
-
-    <p>
-        <div>In highschool I got into a program that was for application development.  Following that I</div>
-        <div>started taking different development classes covering several of the major languages at the time.</div>
-        <div>The languages that I have had classes in are:</div>
-        <ul>
-            <li>Java</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>ASP</li>
-            <li>SQL Server</li>
-            <li>Intro Python</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>xHTML</li>
-            <li>VB</li>
-            <li>MySQL Server</li>
-            <li>DB2 & Oracle 9i</li>
-            <li>Easy C - for highschool robotics</li>
-        </ul>
-    </p>
+            <p>In highschool I got into a program that was for application development.  Following that I</p>
+            <p>started taking different development classes covering several of the major languages at the time.</p>
+            <p>The languages that I have had classes in are:</p>
+        </div>
+    </div>
 
     <section>
         <!-- Contact Info -->
-        <h3>Contact Info</h3>
+        <h3 class="listClass2">Contact Info</h3>
 
         <br>
 
-        <ul>
+        <ul class="listClass3">
             <li>Email: <a href="mailto:lsplaver@yahoo" class="com">lsplaver@yahoo.com</a></li>
             <li>GitHub: <a href="https://github.com/lsplaver">lsplaver</a></li>
             <li>Portfolio: <a href="#comingsoon">Coming Soon</a></li>
         </ul>
     </section>
 </body>
+<style>
+    h1 {
+        color: white;
+        background-color: black;
+        margin: block;
+        text-align: center;
+        padding: 15px;
+    }
+
+    h3 {
+        padding: 5px;
+        font-weight: bold;
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .divPara {
+        float: left;
+        text-indent: 100px;
+    }
+
+    .listClass2 {
+        text-align: right;
+        margin-bottom: 15px;
+    }
+
+    .listClass3 {
+        float: right;
+    }
+</style>
 </html>
